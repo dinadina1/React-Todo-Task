@@ -1,0 +1,40 @@
+.container {
+    padding: 20px;
+}
+
+.todo-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-control {
+    max-width: 340px;
+    border: 1px solid #09ba8e;
+}
+
+.form-control:hover,
+.form-control:focus {
+    border: 2px solid #09ba8e;
+}
+
+.submit-btn {
+    background-color: #09ba8e;
+    color: whitesmoke;
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+    background-color: rgb(4, 91, 62);
+    color: whitesmoke;
+}
+
+@media (max-width:768px) {
+
+    .row,
+    .submit-btn {
+        text-align: center;
+        margin: auto;
+    }
+}

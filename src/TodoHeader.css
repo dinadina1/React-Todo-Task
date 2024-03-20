@@ -1,0 +1,26 @@
+.todo-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.todo-title {
+    font-weight: bold;
+}
+
+.todo-sort {
+    text-align: end;
+}
+
+.todo-sort h5 {
+    margin-right: 10px;
+}
+
+.todo-sort button {
+    padding: 5px;
+}
+
+.dropdown-toggle {
+    background-color: #f26f6f;
+    color: whitesmoke;
+}
