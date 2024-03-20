@@ -42,7 +42,6 @@ function App() {
       setTodoList(updateItem)
       setTodoName('')
       setTodoDesc('')
-      setUpdateId('')
 
     } else {
 
