@@ -34,6 +34,7 @@ function App() {
     if (updateId) {
 
       // Update card details
+      event.preventDefault();
       const updateItem = todoList.map((item) => {
         return item.id == updateId ? { ...item, name: tName, description: tDesc } : item
       })
