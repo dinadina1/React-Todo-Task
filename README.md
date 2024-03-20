@@ -18,7 +18,7 @@
   <li>https://www.npmjs.com/package/@fontsource/poppins</li>
 </ul>
 <h3>Deployed URL</h3>
-
+https://mytodo-apps.netlify.app/
 
 <h5>Screenshots</h5>
 1.Todo Home
